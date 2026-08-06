@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+ <head
+ <meta charset="UTF-8">
+  <meta name="viewport"content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+ </head>
+ <body>
+  <h2>Student Registration Form</h2>
+  <form method="post"target="_blank">
+      <!-- full name-->
+   <label for="fname">Full name:</label><br>
+   <input type="text"
+          id="fname"
+          name="fname"
+          placeholder="enter your name"><br>
+   <!-- Email Address-->
+  <label for="email">Email Address:</label>
+   <br>
+   <input type="email"
+         id="email"
+         name="email"
+         placeholder ="example@gmail.com"><br>   
+   <!-- phone number-->
+   <label for="number">phone number:</label>
+   <br>
+   <input type="tel"
+          id="number"
+          name="number"
+          placeholder="234+...."><br>   
+   <!-- Age -->
+   <label for="number">Age:</label><br>
+   <input type="number"
+          id="number"
+          name="number"
+          placeholder="enter your age"><br>
+   <!-- Time of registration-->
+<label for="time">Time of registration:</label><br>
+   <input type="time"
+        id="time"
+        name="time"><br>
+        <!-- Date of birth-->
+   <label for="date=">Date of birth</label>
+     <br>
+       <input type="date"
+              id="date"
+              name="date"
+              placeholder ="date of birth">
+          <br>
+        <!-- personal website-->
+   <label for="homepage">Personal website:</label>
+   <br>
+   <input type="url"
+          id="homepage"
+          name="homepage"
+          placeholder ="enter your website">
+     <br>
+     <!-- favorite colour-->
+  <label for="favcolor">Favourite colour:</label>
+     <br>
+       <input type="color"
+              id="color"
+              name ="color"
+              value="#ff0000"><br>
+             
+             <!-- gender -->
+             <p>Gender:</p>
+       <input type ="radio"
+              id="male"
+              name="gender"
+              value ="male">
+      <label for="male">Male</label><br>
+       <input type="radio"
+              id="female"
+              name="gender"
+              value ="female">
+      <label for="female">Female</label><br>
+          <!-- Hobbies -->
+      <p>Choose your hobbies:</p>
+        <input type="checkbox"
+               id="hobby"
+               name="hobby"
+               value ="football">
+     <label for="football">playing football</label><br>
+         <input type="checkbox"
+                id="hobby2"
+                name="hobby2"
+                value ="movies">
+    <label for="movie">Watching movies</label><br>
+         <input type="checkbox"
+                id="hobby3"
+                name="hobby3"
+                value="reading">
+    <label for="reading">Reading</label><br>
+         <input type="checkbox"
+                 id="hobby4"
+                 name="hobby4"
+                 value="sleeping">
+     <label for="sleeping">Sleeping</label>
+     <br>
+          <input type="checkbox"
+                  id="hobby5"
+                  name="hobby5"
+                  value="tennis">
+    <label for="tennis">Playing tennis</label><br>
+    <!-- state of origin-->
+    <p>State of origin.</p>
+    <label for ="state">state</label>
+    <select id="state"name="state"size="1">
+        <option value="abia">Abia</option>
+    <option value="adamawa">Adamawa</option>
+  <option value="akwaibom">Akwa ibom</option>
+    <option value="anambra">Anambra</option>
+    <option value="bauchi">Bauchi</option>
+    <option value="bayelsa">Bayelsa</option>
+     <option value="benue">Benue</option>
+     <option value="borno">Borno</option>
+  <option value="crossriver">Cross River</option>
+       <option value="delta">Delta</option>
+    <option value="ebonyi">Ebonyi</option>
+    <option value="edo">Edo</option>
+    <option value="ekiti">Ekiti</option>
+    <option value="enugu">Enugu</option>
+    <option value="gombe">Gombe</option>
+    <option value="imo">Imo</option>
+    <option value="jigawa">Jigawa</option>
+    <option value ="kaduna">Kaduna</option>
+    <option value="kano">Kano</option>
+    <option value="kebni">Kebbi</option>
+    <option value ="kogi">Kogi</option>
+    </select><br>
+    <!-- course of study-->
+    <p>choose course.</p>
+    <label for="course">Course</label>
+ <select id="course"name="course"size="1">
+    <option value ="history">History</option>
+  <option value="philosophy">Philosophy</option>
+  <option value="medicine">Medicine</option>
+  <option value="nursing">Nursing</option>
+  <option value="law">Law</option>
+  <option value="dentistry">Dentistry</option>
+ </select><br>
+ <p>select your level.</p>
+ <label for="level">Level</label>
+ <select id="level"name="level"size="1">
+     <option value="100">100</option>
+     <option value="200">200</option>
+     <option value="300">300</option>
+     <option value="400">400</option>
+ </select><br>
+ <!-- profile picture-->
+ <p>Profile picture</p>
+ <label for="myfile">upload file</label><br>
+   <input type="file"
+          id="myfile"
+          name="myfile"><br>
+  <!-- search field-->
+    <label for="gsearch">Google search.</label><br>
+    <input type="search"
+           id="gsearch"
+           name="gsearch"><br>
+           <!-- password -->
+  <label for="pwd">select password.</label><br>
+    <input type="password"
+           id="pwd"
+           name="pwd"><br>
+   <label for="pwd">confirm password.</label>
+   <br>
+      <input type="password"
+             id="pwd"
+             name="pwd"><br>
+             <!-- bio -->
+     <label for="bio">short bio.</label><br>
+        <textarea id="bio"
+                  name="bio"
+                  cols="25"
+                  rows="10"
+      placeholder="About you"></textarea><br>
+               <!-- Terms and Conditions--> 
+    <label for="tandc">Terms and conditions</label> <input type="checkbox"
+               id="tandc" 
+               name="tandc"   
+               value="tandc"><br><br>
+               <!-- submit and reset-->
+     <input type="submit"value="submit">
+     <input type="reset"value="reset">
+                  
+    </form>
+ </body>
+ </html>
+   
+              
+         
+             
+  
+ 
+   
+   
+        
+         
