@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>USUAL — Redistributing Value</title>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+  <header class="navbar">
+    <a href="#" class="brand" aria-label="USUAL home">
+      <span class="brand-mark"></span>
+      <span>USUAL</span>
+    </a>
+
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#">Home</a>
+      <a href="#">Blog</a>
+      <a href="#">Explore</a>
+      <a href="#">Company</a>
+    </nav>
+
+    <a href="#" class="top-button">Access App</a>
+  </header>
+
+  <main>
+      <!-- main -->
+    <section class="hero">
+      <div class="hero-copy">
+        <h1>Redistributing the<br>value monopolised<br>by crypto giants</h1>
+        <p>A secure, decentralised issuer that takes back<br class="desktop"> the value captured by crypto giants.</p>
+        <a href="#" class="hero-button">
+          <span class="button-mark"></span>
+          Access App
+        </a>
+      </div>
+      <!-- hero art -->
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-frame"></div>
+        <div class="platform platform-back"></div>
+        <div class="tower">
+          <div class="tower-top"></div>
+          <div class="tower-front"></div>
+          <div class="tower-side"></div>
+        </div>
+        <div class="sphere sphere-top"></div>
+        <div class="platform platform-front"></div>
+        <div class="sphere sphere-front"></div>
+      </div>
+    </section>
+    <!-- section partners -->
+
+    <section class="partners" aria-label="Partners">
+      <span class="partner coinbase">coinbase</span>
+      <span class="partner binance"><b>◆</b> BINANCE<small>LABS</small></span>
+      <span class="partner okx">OKX</span>
+      <span class="partner galaxy"><b></b> galaxy</span>
+      <span class="partner kraken"><b>m</b> KRAKEN<small>VENTURES</small></span>
+      <span class="partner circle"><b>◎</b> CIRCLE</span>
+    </section>
+  </main>
+</body>
+</html>
